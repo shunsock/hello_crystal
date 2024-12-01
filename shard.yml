@@ -6,7 +6,7 @@ authors:
 
 targets:
   hello:
-    main: src/hello.cr
+    main: src/main.cr
 
 crystal: '>= 1.14.0'
 
