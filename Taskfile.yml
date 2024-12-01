@@ -1,0 +1,9 @@
+version: '3'
+
+tasks:
+  build:
+    desc: Build the Crystal project and output to the target directory
+    cmds:
+      - mkdir -p target
+      - crystal build src/* -o target/hello
+    silent: false

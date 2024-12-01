@@ -1,0 +1,13 @@
+name: hello
+version: 0.1.0
+
+authors:
+  - Shun <s.tsuchiya.business@gmail.com>
+
+targets:
+  hello:
+    main: src/main.cr
+
+crystal: '>= 1.14.0'
+
+license: MIT
